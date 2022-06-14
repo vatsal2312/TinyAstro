@@ -9,10 +9,10 @@
 pragma solidity >=0.8.1 <0.9.0;
 
 import "./ILeaseController.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
+import "./IERC721.sol";
+import "./ReentrancyGuard.sol";
+import "./Ownable.sol";
+import "./Address.sol";
 
 error NotATokenOwner();
 error NotTheLessor();
