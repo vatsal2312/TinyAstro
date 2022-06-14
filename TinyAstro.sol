@@ -8,10 +8,10 @@
 
 pragma solidity >=0.8.1 <0.9.0;
 
-import "./erc721a/extensions/ERC721AQueryable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/token/common/ERC2981.sol";
+import "./ERC721AQueryable.sol";
+import "./Ownable.sol";
+import "./ReentrancyGuard.sol";
+import "./ERC2981.sol";
 
 import "./ILeaseController.sol";
 
